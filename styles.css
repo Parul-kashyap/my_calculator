@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.Calculator{
+  padding: 1.3rem 1rem 1rem 1rem;
+  border-radius: 20px;
+  background: linear-gradient(#292b33,#1c202e);
+  width: 21rem;
+  box-shadow: 0 0px 30px rgba(21, 235, 225, 0.3);
+  font-family: 'cursive';
+}
+
+.display input{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-right: 1.5rem;
+  text-align: right;
+  height: 4rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 13px;
+  border: none;
+}
+
+.allButtons{
+  /* background-color: pink; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.clearAndNum{
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.clearBackspace{
+  /* background-color: grey; */
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4px;
+  gap: 4.5px;
+  margin: 0 3px 5px 0;
+}
+
+.clearBackspace button{
+  background: linear-gradient(#03fcd9, #0349fc);
+  padding: 1.4rem 1.5rem;
+}
+
+.clearBackspace button:hover{
+  background: linear-gradient(#474d5e, #41454f);
+}
+
+.numButtons{
+  /* background-color: yellow; */
+}
+
+
+.btn{
+  padding: 1.4rem 1.6rem;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+  background-color: #313838;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #3e4452;
+}
+
+
+.zeroBtn{
+  padding: 1.7rem 4rem;
+}
+
+.dotBtn{
+  padding: 1.5rem 1.7rem;
+}
+
+
+.funButtons{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 3px;
+}
+
+.funButtons .btn{
+  background: linear-gradient(#03fcd9, #0349fc);
+  padding: 1.49rem 1.5rem;
+  margin: 2px 3px 8px 0;
+}
+
+.funButtons .btn:hover{
+  background: linear-gradient(#474d5e, #41454f);
+}
+
+.funButtons button .equalBtn{
+  background: linear-gradient(#ed0e25,#ed2d40) !important;
+}
