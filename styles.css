@@ -59,9 +59,19 @@ body{
   margin: 0 3px 5px 0;
 }
 
-.clearBackspace button{
-  background: linear-gradient(#03fcd9, #0349fc);
+.clearBackspace #clear{
+  background: linear-gradient(#ed0e25,#ed2d40);
   padding: 1.4rem 1.5rem;
+}
+
+.clearBackspace #clear:hover{
+  background: linear-gradient(#b52132, #f54e62);
+}
+
+
+.clearBackspace #backspace{
+  background: linear-gradient(#03fcd9, #0349fc);
+  padding: 1.3rem;
 }
 
 .clearBackspace button:hover{
@@ -115,6 +125,10 @@ body{
   background: linear-gradient(#474d5e, #41454f);
 }
 
-.funButtons button .equalBtn{
-  background: linear-gradient(#ed0e25,#ed2d40) !important;
+.funButtons #equal{
+  background: linear-gradient(#14fc47, #069926) ;
+}
+
+.funButtons #equal:hover{
+  background: linear-gradient(#128c2d, #0fa32f) ;
 }
