@@ -22,6 +22,7 @@ body{
   width: 21rem;
   box-shadow: 0 0px 30px rgba(21, 235, 225, 0.3);
   font-family: 'cursive';
+  border: 2px solid black;
 }
 
 .display input{

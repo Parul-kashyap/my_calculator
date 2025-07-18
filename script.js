@@ -9,7 +9,7 @@ buttons.forEach((button) => {
 
       if(value === "C"){
         display.value = "0";
-      } else if(value === "<"){
+      } else if(value === "⌫"){
         display.value = display.value.slice(0,-1) || "0";
       } else if(value === "="){
         try{
